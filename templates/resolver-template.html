@@ -1,0 +1,72 @@
+<div style="
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  border: 2px solid rgba(255, 100, 0, 0.3);
+  border-radius: 2px;
+  padding: 0.45rem;
+">
+  <a href="<% return data.permalink_url %>" target="_blank">
+    <img style="
+      height: 100px;
+      border-radius: 2px;
+    " src="<% return data.artwork_url %>">
+  </a>
+  <div style="
+    font-family: Proxima Nova, Helvetica Neue, sans-serif;
+    margin-left: 1rem;
+  ">
+    <div style="
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 445px;
+    ">
+      <a href="<% return data.permalink_url %>" target="_blank" style="
+        text-decoration: none;
+        color: rgb(33, 33, 33);
+      ">
+        <% return data.title %>
+      </a>
+    </div>
+    <div style="
+      font-size: 0.85rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 445px;
+    ">
+      <a href="<%
+        if (data.user) return data.user.permalink_url;
+        return '';
+      %>" target="_blank" style="
+        text-decoration: none;
+        color: rgb(111, 111, 111);
+      ">
+        <%
+          if (data.user) return data.user.username;
+          return 'Username';
+        %>
+      </a>
+    </div>
+    <br>
+    <div>
+      <span style="
+        font-size: 0.9rem;
+      ">Description</span>
+      <br>
+      <div style="
+        font-size: 0.8rem;
+        color: rgb(88, 88, 88);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 445px;
+      ">
+        <% return data.description || 'No description available.' %>
+      </div>
+    </div>
+  </div>
+</div>
