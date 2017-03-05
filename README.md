@@ -6,7 +6,7 @@ how to use this example code in Mixmax.
 
 ## What it should look like:
 ###Typeahead<br>
-![typeahead](https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/typeahead.png)
+![typeahead](https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/typeahead.gif)
 
 ###Resolver<br>
 ![resolver](https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/resolver.png)
