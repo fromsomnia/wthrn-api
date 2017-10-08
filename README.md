@@ -34,7 +34,7 @@ You might see the following warning after opening Chrome with `--args --ignore-c
 
 <img src="https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/warning.png" width="600" />
 
-5. Open a compose mole in Gmail with the Mixmax extension and start typing `/soundcloud` you should see a popup menu asking you to type a search term.<br><br>
+5. Start composing a message in Gmail with the Mixmax extension and start typing `/soundcloud` you should see a popup menu asking you to type a search term.<br><br>
 <img src="https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/popup.png" width="400" /><br><br>
 When you start typing, Chrome may also display the url as `Not Secure`.<br><br>
 <img src="https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/warning2.png" width="400" /><br><br>
