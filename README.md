@@ -3,15 +3,15 @@
 This is an open source Mixmax Slash Command.<br>
 See <https://developer.mixmax.com/docs/overview-slash-commands> for more information.
 
-## What it should look like:
+## What it Should Look Like:
 
 ### Typeahead
 
-![typeahead](https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/typeahead.gif)
+![typeahead](https://raw.githubusercontent.com/wthrn/api/master/screenshots/typeahead.gif)
 
 ### Resolver
 
-![resolver](https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/resolver.png)
+![resolver](https://raw.githubusercontent.com/wthrn/api/master/screenshots/resolver.png)
 
 ## How to Use wthrn
 
@@ -20,12 +20,12 @@ See <https://developer.mixmax.com/docs/overview-slash-commands> for more informa
   * In the slash commands section, click the `Add Slash Command` button.
   * Add the wthrn slash command using the settings below.
 
-<img src="https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/settings.png" width="550" />
+<img src="https://raw.githubusercontent.com/wthrn/api/master/screenshots/settings.png" width="550" />
 
 2. Quit Chrome using `Cmd-q`. You need to quit Chrome entirely. Closing all open Chrome windows does not work.
 
 3. Reopen Chrome and start composing a message in Gmail with the Mixmax extension and start typing `/wthrn` you should see a popup menu asking you to type in a location.<br><br>
-<img src="https://raw.githubusercontent.com/simonxca/mixmax-soundcloud-slash-command/master/screenshots/popup.png" width="400" />
+<img src="https://raw.githubusercontent.com/wthrn/api/master/screenshots/popup.png" width="400" />
 
 # Running wthrn Locally
 
