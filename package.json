@@ -1,21 +1,21 @@
 {
-  "name": "mixmax-soundcloud-slash-command",
+  "name": "wthrn-slash-command",
   "version": "1.0.0",
-  "description": "SoundCloud slash command for Mixmax",
-  "main": "server.js",
+  "description": "wthrn slash command for Mixmax",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/simonxca/mixmax-soundcloud-slash-command.git"
+    "url": "git://github.com/wchid/wthrn.git"
   },
-  "author": "Simon Xiong <simon@mixmax.com>",
+  "author": "William Chidyausiku <wjkchidyausiku@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mixmaxhq/mixmax-soundcloud-slash-command/issues"
+    "url": "https://github.com/wchid/wthrn/api/issues"
   },
-  "homepage": "https://github.com/mixmaxhq/mixmax-soundcloud-slash-command",
+  "homepage": "https://github.com/wchid/wthrn/api",
   "dependencies": {
     "body-parser": "^1.12.2",
     "cors": "^2.7.1",
@@ -24,7 +24,10 @@
     "pem": "^1.9.4",
     "request": "^2.64.0",
     "synchronize": "^0.9.14",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "handlebars": "latest",
+    "jimp": "latest",
+    "memcached": "latest"
   },
   "devDependencies": {
     "nodemon": "^1.7.1"

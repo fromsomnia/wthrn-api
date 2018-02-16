@@ -1,0 +1,39 @@
+<div style="
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  background: rgb(0, 71, 153);
+  color: white;
+  padding: 7px;
+">
+  <div style="
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 71, 153);
+    flex: none;
+    width: 40px;
+    height: 40px;
+  ">
+    <img style="max-width: 100%; max-height: 100%; border: 1px solid white;" src="{{thumb}}">
+  </div>
+  <div style="
+    margin-left: 0.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  ">
+    <span>
+     {{location}}
+    </span>
+    <br>
+    <span style="
+      color: rgb(111, 111, 111);
+      font-weight: 400;
+      font-size: 0.9em;
+    ">
+      {{context}}
+    </span>
+  </div>
+</div>
