@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wchid/wthrn.git"
+    "url": "git://github.com/wthrn/api.git"
   },
   "author": "William Chidyausiku <wjkchidyausiku@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wchid/wthrn/api/issues"
+    "url": "https://github.com/wthrn/api/issues"
   },
-  "homepage": "https://github.com/wchid/wthrn/api",
+  "homepage": "https://wwww.wthrn.com",
   "dependencies": {
     "body-parser": "^1.12.2",
     "cors": "^2.7.1",
