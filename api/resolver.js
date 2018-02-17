@@ -105,7 +105,7 @@ const getIcon = (name, time, timezone) => {
     // Depending on the time of day we'll show a "nighttime" icon alternative
     if (time && timezone && !name.includes("day") && !name.includes("night")) {
       const options = { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: timezone };
-      const localeTimeString = date.toLocaleTimeString("en-US", options);
+      const localeTimeString = time.toLocaleTimeString("en-US", options);
       const hours = parseInt(localeTimeString.slice(0, localeTimeString.indexOf(":")));
 
       // Of course we might need location/time of year/daylight savings nuance to determine this
