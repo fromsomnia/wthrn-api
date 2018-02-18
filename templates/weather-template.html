@@ -1,84 +1,64 @@
 <div style="
   border: 2px solid rgb(0, 71, 153);
   border-radius: 25px;
-  position: relative;
   font-family: Lato,sans-serif;
   font-size: 16px;
   color: white;
-  width: 330px;
+  width: 380px;
   height: 120px;
-  display: flex;
-  flex-flow: column;
+  display: inline-block;
   font-weight: 100;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 ">
+  <div style="max-height:0; max-width:0; overflow: visible;">
+    <img style="margin: 4px 0 0 0" width="120" height="120" src="{{icon}}">
+  </div>
+  <div style="max-height:0; max-width:0; overflow: visible;">
+    <img style="margin: 4px 0 0 260px" src="{{thermometer}}" width="120" height="120">
+  </div>
   <div style="
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
     border: 2px solid white;
     background: rgb(0, 71, 153);
     border-radius: 25px;
-    flex-grow: 1;
+    width: 356px;
+    height: 96px;
     padding: 10px;
   ">
     <div style="
-      display: flex;
-      justify-content: center;
+      width: 356px;
+      text-align: center;
     ">
       <span style="color:#AFAFAF;">wthrn:&nbsp;</span>{{title}}
     </div>
     <div style="
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
+      padding: 2px 0 5px 0;
     ">
-      <svg width="70" height="70" style="flex: none;" viewBox="4 2 14 14">
-        <image href="{{icon}}" width="20" height="20"></image>
-      </svg>
-      <div style="
-        display: flex;
-        align-items: center;
-      "><div style="font-size:50px; padding-left:21px;">{{temperature}}</div><svg width="40" height="40" style="flex: none;" viewBox="6 7 10 10">
-        <image href="https://assets.wthrn.com/images/Degrees-Fahrenheit.svg" width="20" height="20"></image>
-      </svg></div>
-      <svg width="60" height="70" style="flex: none;" viewBox="5 5 10 10">
-        <image href="{{thermometer}}" width="20" height="20"></image>
-      </svg>
+      <div style="width: auto; font-size:50px; text-align: center;">
+        <span>{{temperature}}<img src="https://assets.wthrn.com/images/Degrees-Fahrenheit-Min.png" width="30px" style="vertical-align: text-top; margin-top: 12px;"></span>
+      </div>
     </div>
     <div style="
-        font-size: 8px;
-        color:#afafaf;
-        text-align: center;
-      ">
+      width: 356px;
+      font-size: 8px;
+      color:#AFAFAF;
+      text-align: center;
+    ">
       {{time}}
     </div>
   </div>
 </div>
 <div style="
-  flex: none;
-  display: block;
-  display: -webkit-box;
   font-family: Lato,sans-serif;
   font-weight: 100;
-  width: 300px;
+  width: 350px;
   max-height: 43px;
   margin: 10px;
   font-size: 14px;
   padding-bottom: 4px;
   line-height: 1;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
   overflow: hidden;
+  text-align: center;
   text-overflow: ellipsis;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 ">
   {{description}}
